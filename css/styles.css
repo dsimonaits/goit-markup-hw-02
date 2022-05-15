@@ -1,0 +1,99 @@
+/* main color: rgba(33, 33, 33, 1); */
+/* secendory color: rgba(117, 117, 117, 1); */
+
+/* background color: #FFFFFF; */
+/* secend background color:  #F5F4FA; */
+/* accent: rgba(33, 150, 243, 1); */
+
+:root {
+    --main-color: rgba(117, 117, 117, 1);
+    --secondary-color:rgba(33, 33, 33, 1);
+    --accent-color: rgba(33, 150, 243, 1);
+}
+
+.body {
+    background-color: #FFFFFF;
+    color: var(--main-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+text-decoration: none;
+}
+
+
+/* nav */
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.logo .logo-span {
+    color: var(--secondary-color);
+}
+
+.site-nav .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    color: var(--secondary-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.auth-nav .link {
+    list-style: none;
+    color: var(--main-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* hero */
+
+.hero .hero-title {
+    color: var(--secondary-color);
+}
+
+/* section  */
+
+.section .section-title {
+    color: var(--secondary-color);
+    font-weight: 700;
+}
+
+.advantages .title {
+    color: var(--secondary-color);
+}
+
+.team .title {
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+
+/* footer */
+
+
+    
