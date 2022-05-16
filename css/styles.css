@@ -94,6 +94,7 @@
     text-transform: uppercase;
 }
 
+/* buttons */
 .hero-button {
     color: var(--white-color);
     background-color: var(--accent-color);
@@ -108,6 +109,22 @@
     letter-spacing: 0.06em;
 }
 
+.filter-button {
+    color: var(--secondary-color);
+
+    font-family: roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+
+}
+
+.filter-button.active {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
 /* section  */
 
 .section .section-title {
@@ -118,6 +135,17 @@
     line-height: 1.17;
     text-align: center;
 
+}
+
+.section .main-title {
+    color: var(--secondary-color);
+        
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .advantages .title {
