@@ -106,6 +106,8 @@
     
     border-style:hidden;
     letter-spacing: 0.06em;
+    
+    cursor: pointer;
 }
 
 .filter-button {
@@ -117,6 +119,8 @@
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
+
+    cursor:pointer;
 
 }
 
@@ -148,8 +152,6 @@
 }
 
 .advantages .text {
-    font-family: roboto, sans-serif;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
@@ -160,7 +162,6 @@
 }
 
 .team .text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
 }
@@ -177,7 +178,6 @@
 .projects.link {
     color:var(--main-color);
 
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     text-decoration: none;
@@ -202,9 +202,6 @@
     background-color: var(--grey-color)
 }
 
-.address.list .link {
-    text-decoration: none;
-}
 
 .footer .logo {
     font-family: raleway, sans-serif;
@@ -222,9 +219,9 @@
 color: var(--adress-color);
 
 font-style: normal;
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
+text-decoration: none;
 }
 
 .footer .link:hover,
