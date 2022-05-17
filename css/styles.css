@@ -227,8 +227,17 @@ font-size: 14px;
 line-height: 1.71;
 }
 
+.footer .link:hover,
+.footer .link:focus {
+    color: var(--accent-color);
+}
+
 .footer .link.address {
     color: var(--white-color);
 }
 
+.footer .link.address:hover,
+.footer .link.address:focus {
+    color: var(--accent-color);
+}
     
