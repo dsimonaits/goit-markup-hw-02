@@ -165,20 +165,23 @@
     line-height: 1.71x;
 }
 
+.team .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.filters .title,
+.projects .title,
 .team .title {
     color: var(--secondary-color);
-
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
 
-.team .text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.19;
-}
 
 /* footer */
 
