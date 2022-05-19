@@ -1,13 +1,13 @@
 
 :root {
-    --main-color: rgba(117, 117, 117, 1);
-    --secondary-color:rgba(33, 33, 33, 1);
+    --main-color: #757575;
+    --secondary-color: #212121;
    
-    --accent-color: rgba(33, 150, 243, 1);
+    --accent-color: #2196F3;
     --white-color: #FFFFFF;
-    --grey-color: rgba(47, 48, 58, 1);
+    --grey-color: #2F303A;
 
-    --adress-color: rgba(255, 255, 255, 0.6);
+    --adress-color: #FFFFFF99;
 }
 
 .body {
@@ -82,7 +82,7 @@
     background-color: rgba(47, 48, 58, 1);
 }
 
-.hero .hero-title {
+.hero-title {
     color: var(--white-color);
 
     font-weight: 900;
@@ -124,14 +124,26 @@
 
 }
 
-.filter-button.active {
+.filter-button:hover,
+.filter-button:focus {
     color: var(--white-color);
     background-color: var(--accent-color);
 }
 
 /* section  */
 
-.section .section-title {
+.section h1 {
+    color: var(--secondary-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.section h2 {
     color: var(--secondary-color);
 
     font-weight: 700;
@@ -141,8 +153,7 @@
 
 }
 
-
-.advantages .title {
+.advantages h3 {
     color: var(--secondary-color);
 
     font-weight: 700;
@@ -151,22 +162,22 @@
     text-transform: uppercase;
 }
 
-.advantages .text {
+.advantages p {
     font-size: 14px;
     line-height: 1.71;
 }
 
-.team.list .title,
-.team.list .text {
+.team .title,
+.team .text {
     text-align: center;
 }
 
-.team .text {
+.team p {
     font-size: 16px;
     line-height: 1.19;
 }
 
-.team .title {
+.team h3 {
     color: var(--secondary-color);
     
     font-weight: 500;
@@ -183,13 +194,14 @@
     text-decoration: none;
 }
 
-.projects.link .title {
+.projects.link h2 {
     color: var(--secondary-color);
        
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    text-align: left;
 }
 
 
@@ -237,4 +249,3 @@ text-decoration: none;
 .footer .link.address:focus {
     color: var(--accent-color);
 }
-    
