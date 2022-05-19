@@ -26,7 +26,8 @@
 
 /* nav */
 
-.logo {
+.header-logo,
+.footer-logo {
     color: var(--accent-color);
    
     font-family: Raleway, sans-serif;
@@ -37,11 +38,11 @@
  
 }
 
-.logo .logo-span {
+.header-logo-span {
     color: var(--secondary-color);
 }
 
-.site-nav .link {
+.site-nav a {
     color: var(--secondary-color);
     
     font-weight: 500;
@@ -51,16 +52,16 @@
     text-decoration: none;
 }
 
-.site-nav .link.active {
+.site-nav-link.active {
     color: var(--accent-color);
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav-link:hover,
+.site-nav-link:focus {
     color: var(--accent-color);
 }
 
-.auth-nav .link {
+.auth-nav-link {
     color: inherit;
     
     font-weight: 500;
@@ -71,8 +72,8 @@
     text-decoration: none;
 }
 
-.auth-nav .link:hover,
-.auth-nav .link:focus {
+.auth-nav-link:hover,
+.auth-nav-link:focus {
     color: var(--accent-color);
 }
 
@@ -99,7 +100,6 @@
     background-color: var(--accent-color);
 
     font-family: roboto, sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -114,7 +114,6 @@
     color: var(--secondary-color);
 
     font-family: roboto, sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -126,6 +125,11 @@
 
 .filter-button:hover,
 .filter-button:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+.filter-button.active {
     color: var(--white-color);
     background-color: var(--accent-color);
 }
@@ -153,7 +157,7 @@
 
 }
 
-.advantages h3 {
+.advantages-title {
     color: var(--secondary-color);
 
     font-weight: 700;
@@ -162,13 +166,13 @@
     text-transform: uppercase;
 }
 
-.advantages p {
+.advantages-text {
     font-size: 14px;
     line-height: 1.71;
 }
 
-.team .title,
-.team .text {
+.team-title,
+.team-text {
     text-align: center;
 }
 
@@ -215,7 +219,7 @@
 }
 
 
-.footer .logo {
+.footer-logo {
     font-family: raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -223,11 +227,11 @@
     text-decoration: none;
 }
 
-.footer .logo-span {
+.footer-logo.span {
     color:var(--white-color);
 }
 
-.footer .link {
+.footer-link {
 color: var(--adress-color);
 
 font-style: normal;
@@ -236,16 +240,16 @@ line-height: 1.71;
 text-decoration: none;
 }
 
-.footer .link:hover,
-.footer .link:focus {
+.footer-link:hover,
+.footer-link:focus {
     color: var(--accent-color);
 }
 
-.footer .link.address {
+.footer-link.address {
     color: var(--white-color);
 }
 
-.footer .link.address:hover,
-.footer .link.address:focus {
+.footer-link.address:hover,
+.footer-link.address:focus {
     color: var(--accent-color);
 }
