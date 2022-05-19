@@ -190,7 +190,7 @@
     letter-spacing: 0.03em;
 }
 
-.projects.link {
+.projects {
     color:var(--main-color);
 
     font-size: 16px;
@@ -198,7 +198,7 @@
     text-decoration: none;
 }
 
-.projects.link h2 {
+.projects h2 {
     color: var(--secondary-color);
        
     font-weight: 700;
