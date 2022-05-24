@@ -7,6 +7,7 @@
     --white-color: #FFFFFF;
     --grey-color: #2F303A;
 
+    --team-color: #F5F4FA;
     --adress-color: #FFFFFF99;
 }
 
@@ -110,6 +111,12 @@
     cursor: pointer;
 }
 
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #188CE8;
+}
+
+
 .filter-button {
     color: var(--secondary-color);
 
@@ -169,6 +176,14 @@
 .advantages-text {
     font-size: 14px;
     line-height: 1.71;
+}
+
+.section.team {
+    background-color: var(--team-color);
+}
+
+.team.list {
+    background-color: var(--white-color);
 }
 
 .team-title,
